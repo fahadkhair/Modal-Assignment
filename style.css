@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    background-color: #212121;
+}
+
+/* Style for the close button */
+.close {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer; /* Add cursor pointer for hover effect */
+}
+
+.close:hover {
+    color: orange;
+}
+
+/* Style for the modal */
+.modal-close {
+    display: none;
+}
+
+.modal-open {
+    display: block;
+    cursor: pointer;
+}
+
+#image-container {
+    cursor: pointer;
+}
+
+#image-container:hover {
+    color: orange;
+}
